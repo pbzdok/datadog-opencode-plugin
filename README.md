@@ -75,7 +75,7 @@ Instead of OAuth, you can authenticate using a Datadog API key and application k
   "mcp": {
     "datadog": {
       "type": "remote",
-      "url": "https://mcp.datadoghq.com/api/unstable/mcp-server/mcp",
+      "url": "https://mcp.datadoghq.com/v1/mcp",
       "oauth": false,
       "headers": { "DD_API_KEY": "{env:DD_API_KEY}", "DD_APPLICATION_KEY": "{env:DD_APPLICATION_KEY}" }
     }
